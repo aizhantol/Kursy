@@ -1,0 +1,151 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+body {
+  padding-top: 3.5rem;
+}
+
+
+.navbar-dark{
+background-color: #AE1919;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+padding-right: 2.5rem;
+padding-left: .5rem;
+font-size: 15px;
+color: white;
+}
+.nav-link{
+font-family: 'IBM Plex Serif', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 130%;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+padding-right: 20px;
+letter-spacing: 0.1em;
+white-space: nowrap;
+}
+
+.nav-item{
+  color: white;
+    text-transform: uppercase;
+}
+
+.mr-auto{
+	margin:auto;
+	text-align: center;
+	right: 50%;
+}
+
+.jumbotron{
+	height:720px;
+	    height: 100vh;
+
+    width: 100%;
+	position: relative;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uk{
+  background: url('../images/uk.jpg');
+    position: absolute;
+      background-size: cover;
+
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+ 
+        background-attachment: fixed;
+  background-position: center; 
+}
+#black{
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-attachment: fixed;
+  background-position: center; 
+  opacity:0.5;
+}
+.prime{
+	margin: 13rem auto;	
+}
+.display-3, .btn-lg, .container h1, h2, p{
+font-family: 'IBM Plex Serif', serif;
+position: relative;
+  text-align: center;
+  color: #AE1919;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top:20px;
+  font-size: 1.3rem;
+}
+.container h1 {
+font-size: 3.5rem;
+}
+.container h2{
+font-size: 2.5rem;
+}
+.btn-lg{
+  background-color: #AE1919;
+  color: rgb(255,255,255);
+  border:none;
+  padding: 0.4rem 1.2rem;
+  font-size: 1.8rem;
+  border-radius: inherit;
+}
+.uppercase{
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+}
+.aru{
+	height:400px;
+	width: 325px;
+	margin:30px;
+}
+.pa {
+margin: 1rem 7rem;
+font-size: 1.3rem;
+}
+.foot{
+	width:40%;
+
+}
+.white, #white{
+	color: white;
+font-family: 'IBM Plex Serif', serif;
+text-align: center;
+}
+.page-footer{
+	background-color:#AE1919;
+}
+.sign{
+	margin:4rem 15rem;
+}
+
+#red{
+	width:100%;
+	  background-color: #AE1919;
+	margin: 4rem 0 2rem;
+    padding: .5rem;
+}
+.buttn{
+	margin: auto;
+}
+.knopka{
+	padding: .5rem 5.2rem;
+    font-size: 2.2rem;
+}
+
+@media (max-width: 1200px) { 
+
+}
+
+
